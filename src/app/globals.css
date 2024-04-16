@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  @apply h-full;
+}
+
 body {
   @apply font-sans;
   @apply bg-gray-100;
