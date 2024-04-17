@@ -38,7 +38,6 @@ export default function TipWindow() {
           {tipOptions && tipOptionList()}
         </div>
         <div className="flex flex-col gap-2">
-          <button className="border-2 border-black">Custom Tip Ammount</button>
           <button className="border-2 border-black">No Tip</button>
         </div>
       </div>
